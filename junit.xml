@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="1.796">
+  <testsuite name="GET Auth Endpoint" errors="0" failures="0" skipped="0" timestamp="2024-03-13T03:44:52" time="1.687" tests="7">
+    <testcase classname="GET Auth Endpoint GET Auth token with a valid username and password" name="GET Auth Endpoint GET Auth token with a valid username and password" time="0.251">
+    </testcase>
+    <testcase classname="GET Auth Endpoint Attempt to GET Auth token with a valid username but an invalid password" name="GET Auth Endpoint Attempt to GET Auth token with a valid username but an invalid password" time="0">
+    </testcase>
+    <testcase classname="GET Auth Endpoint Attempt to GET Auth token with a valid username but a null password" name="GET Auth Endpoint Attempt to GET Auth token with a valid username but a null password" time="0.19">
+    </testcase>
+    <testcase classname="GET Auth Endpoint Attempt to GET Auth token with a valid password but an invalid username" name="GET Auth Endpoint Attempt to GET Auth token with a valid password but an invalid username" time="0.009">
+    </testcase>
+    <testcase classname="GET Auth Endpoint Attempt to GET Auth token with a valid password but an null username" name="GET Auth Endpoint Attempt to GET Auth token with a valid password but an null username" time="0.216">
+    </testcase>
+    <testcase classname="GET Auth Endpoint Attempt to GET Auth token with a null username and password" name="GET Auth Endpoint Attempt to GET Auth token with a null username and password" time="0.011">
+    </testcase>
+    <testcase classname="GET Auth Endpoint Attempt to GET Auth token with a invalid username and password" name="GET Auth Endpoint Attempt to GET Auth token with a invalid username and password" time="0.207">
+    </testcase>
+  </testsuite>
+</testsuites>

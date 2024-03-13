@@ -1,0 +1,40 @@
+{
+  "name": "fullapitest",
+  "version": "1.0.0",
+  "description": "Practice project for creating API tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --maxConcurrency=2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "reporters": [
+      "default",
+      "jest-junit",
+      ["jest-html-reporters", {
+        "darkTheme": true,
+        "inlineSource": true,
+        "pageTitle": "Polaris API Tests",
+        "hideIcon": true
+      }]
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.7",
+    "supertest": "^6.3.4",
+    "jest-junit": "^16.0.0"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpbillings86/fullAPITest.git"
+  },
+  "author": "James Billings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpbillings86/fullAPITest/issues"
+  },
+  "homepage": "https://github.com/jpbillings86/fullAPITest#readme"
+}
